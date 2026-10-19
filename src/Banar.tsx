@@ -1,4 +1,4 @@
-import React from "react";
+
 import heroimage from "./assets/banner-stack.png";
 const Banar = () => {
   return (
