@@ -5,6 +5,7 @@ import Tech from "./component/Tech";
 import Nav from "./Nav";
 import YourStack from "./component/YourStack";
 import type { TechType } from "./Type";
+import Footer from "./Footer";
 
 const getTech = async (): Promise<TechType[]> => {
   const res = await fetch("/data.json");
@@ -74,6 +75,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
 
     </>
   );
